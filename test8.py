@@ -4,11 +4,10 @@ import random
 
 from faker import Faker
 
-student1 = student1 = {"id": "2701111",
+student1 = {"id": "2701111",
 "name": "Jordan",
 "age": 20,
-"gender": "male",
-}
+"gender": "male",}
 
 def db(db_name="default_name", table_name="default_table", insert_data="None"):
     print("Setting up database and relaying a connection...")
